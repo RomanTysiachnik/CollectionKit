@@ -7,12 +7,12 @@ let package = Package(
   name: "CollectionKit",
   platforms: [.iOS(.v9)],
   products: [
-    .library(name: "CollectionKit", targets: ["Core"]),
+    .library(name: "CollectionKit", targets: ["CollectionKit"]),
   ],
   dependencies: [],
   targets: [
     .target(
-      name: "Core",
+      name: "CollectionKit",
       dependencies: [],
       path: "Sources"
     )
